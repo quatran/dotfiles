@@ -1,0 +1,40 @@
+# KDE 
+*.directory
+
+# Swap
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+
+# Session
+Session.vim
+Sessionx.vim
+
+# backup
+*.backup
+*.bka
+*.bak
+*.bkp
+
+# intelliijDe
+.idea/*
+
+# Kate
+*.kate-swp
+
+# vscode
+.vscode/
+.vscode
+
+# python
+__pycache__/
+.pytest_cache/
+/src
+
+# asdf version control
+.tool-versions
+
+# gitignore
+.gitignore

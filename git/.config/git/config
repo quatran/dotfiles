@@ -1,0 +1,35 @@
+[include]
+    path =~/.config/git/config-private
+
+[includeif "gitdir:**/*suse*/**"]
+    path =~/.config/git/config-work
+
+[includeif "gitdir:**/*SUSE*/**"]
+    path =~/.config/git/config-work
+
+[core]
+    editor = nvim
+    excludesfile = ~/.gitignore
+
+[commit]
+    gpgsign = true
+
+[http]
+    sslVerify = false
+
+[color]
+    diff = auto
+    status = auto
+    branch = auto
+
+[alias]
+    a = add
+    aa = add .
+    br = branch
+    c = commit
+    cm = commit -m
+    co = checkout
+    cob = checkout -b
+    p = push
+    st = status
+    s = status -s
