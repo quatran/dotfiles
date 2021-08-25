@@ -9,7 +9,7 @@
 
 [core]
     editor = nvim
-    excludesfile = ~/.gitignore
+    excludesfile = ~/.config/git/ignore
 
 [commit]
     gpgsign = true
