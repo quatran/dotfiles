@@ -1,0 +1,18 @@
+[Desktop Entry]
+Type=X-Zim-CustomTool
+Version=1.0
+GenericName=
+Name=Open with Visual Code
+Comment=
+Exec=
+TryExec=
+Icon=
+MimeType=
+Terminal=false
+NoDisplay=false
+X-Zim-ExecTool=code %s
+X-Zim-ReadOnly=false
+X-Zim-ShowInToolBar=true
+X-Zim-ShowInContextMenu=Page
+X-Zim-ReplaceSelection=false
+
