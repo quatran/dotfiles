@@ -1,0 +1,70 @@
+{
+	"[shellscript]": {
+		"editor.defaultFormatter": "foxundermoon.shell-format"
+	},
+	"diffEditor.ignoreTrimWhitespace": false,
+	"editor.cursorBlinking": "smooth",
+	"editor.cursorSurroundingLines": 1,
+	"editor.cursorWidth": 1,
+	"editor.fontFamily": "Source Code Pro Medium",
+	"editor.fontLigatures": false,
+	"editor.fontSize": 18,
+	"editor.minimap.showSlider": "always",
+	"editor.renderControlCharacters": true,
+	"editor.renderWhitespace": "all",
+	"editor.suggest.localityBonus": true,
+	"editor.suggest.preview": true,
+	"editor.suggest.showStatusBar": true,
+	"editor.tabCompletion": "on",
+	"editor.tabSize": 2,
+	"editor.wordBasedSuggestionsMode": "allDocuments",
+	"editor.wordWrap": "on",
+	"explorer.confirmDelete": false,
+	"explorer.confirmDragAndDrop": false,
+	"extensions.ignoreRecommendations": true,
+	"files.associations": {
+		"*.kiwi": "xml"
+	},
+	"files.autoGuessEncoding": true,
+	"files.insertFinalNewline": true,
+	"files.trimFinalNewlines": true,
+	"files.trimTrailingWhitespace": true,
+	"git.confirmSync": false,
+	"git.enableSmartCommit": true,
+	"git.untrackedChanges": "separate",
+	"gitlens.advanced.messages": {
+		"suppressFileNotUnderSourceControlWarning": true,
+		"suppressLineUncommittedWarning": true
+	},
+	"launch": {
+		"configurations": [],
+		"compounds": []
+	},
+	"markdown.extension.preview.autoShowPreviewToSide": true,
+	"markdown.extension.toc.omittedFromToc": {},
+	"notebook.cellToolbarLocation": {
+		"default": "right",
+		"jupyter-notebook": "left"
+	},
+	"npm.fetchOnlinePackageInfo": false,
+	"python.defaultInterpreterPath": "/usr/bin/python3",
+	"ruby.format": "rubocop",
+	"ruby.interpreter.commandPath": "/usr/bin/ruby",
+	"telemetry.enableCrashReporter": false,
+	"telemetry.enableTelemetry": false,
+	"terminal.integrated.defaultProfile.linux": "zsh",
+	"terminal.integrated.fontFamily": "monospace",
+	"terminal.integrated.rightClickBehavior": "selectWord",
+	"terminal.integrated.rightClickCopyPaste": true,
+	"update.mode": "manual",
+	"window.zoomLevel": 1,
+	"workbench.activityBar.visible": true,
+	"workbench.editorAssociations": {
+		"*.md, *.markdown": "vscode.markdown.preview.editor",
+		"*.ipynb": "jupyter-notebook"
+	},
+	"workbench.enableExperiments": false,
+	"workbench.iconTheme": "vscode-icons",
+	"workbench.settings.useSplitJSON": true,
+	"workbench.sideBar.location": "left"
+}
