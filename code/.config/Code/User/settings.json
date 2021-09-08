@@ -23,7 +23,9 @@
 	"explorer.confirmDragAndDrop": false,
 	"extensions.ignoreRecommendations": true,
 	"files.associations": {
-		"*.kiwi": "xml"
+		"*.kiwi": "xml",
+		"*.spec": "makefile",
+		"DC-*": "shellscript"
 	},
 	"files.autoGuessEncoding": true,
 	"files.insertFinalNewline": true,
