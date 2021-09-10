@@ -126,3 +126,6 @@ export LC_ALL="en_US.UTF-8"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# Save every command before it is executed
+ setopt inc_append_history
