@@ -23,6 +23,7 @@
 	"explorer.confirmDragAndDrop": false,
 	"extensions.ignoreRecommendations": true,
 	"files.associations": {
+		"*.fo": "xml",
 		"*.kiwi": "xml",
 		"*.spec": "makefile",
 		"DC-*": "shellscript"
