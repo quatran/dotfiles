@@ -43,7 +43,6 @@
 		"configurations": [],
 		"compounds": []
 	},
-	"markdown.extension.preview.autoShowPreviewToSide": true,
 	"markdown.extension.toc.omittedFromToc": {},
 	"notebook.cellToolbarLocation": {
 		"default": "right",
