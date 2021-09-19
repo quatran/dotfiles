@@ -2,18 +2,44 @@
 
 <channel name="xfce4-desktop" version="1.0">
   <property name="desktop-menu" type="empty">
-    <property name="show" type="empty"/>
+    <property name="show" type="bool" value="true"/>
   </property>
   <property name="windowlist-menu" type="empty">
-    <property name="show" type="empty"/>
+    <property name="show" type="bool" value="true"/>
+    <property name="show-submenus" type="bool" value="false"/>
+    <property name="show-sticky-once" type="bool" value="false"/>
   </property>
   <property name="backdrop" type="empty">
     <property name="screen0" type="empty">
       <property name="monitoreDP1" type="empty">
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="0"/>
+          <property name="image-style" type="int" value="0"/>
+          <property name="last-image" type="string" value="/usr/share/wallpapers/xfce/xfce-teal.jpg"/>
+          <property name="rgba2" type="array">
+            <value type="double" value="0.988235"/>
+            <value type="double" value="0.686275"/>
+            <value type="double" value="0.243137"/>
+            <value type="double" value="1.000000"/>
+          </property>
+          <property name="rgba1" type="array">
+            <value type="double" value="0.447059"/>
+            <value type="double" value="0.623529"/>
+            <value type="double" value="0.811765"/>
+            <value type="double" value="1.000000"/>
+          </property>
+        </property>
+        <property name="workspace1" type="empty">
+          <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/wallpapers/xfce/xfce-blue.jpg"/>
+          <property name="last-image" type="string" value="/usr/share/wallpapers/xfce/default.wallpaper"/>
+        </property>
+      </property>
+      <property name="monitorHDMI2" type="empty">
+        <property name="workspace0" type="empty">
+          <property name="color-style" type="int" value="0"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/usr/share/wallpapers/xfce/default.wallpaper"/>
         </property>
         <property name="workspace1" type="empty">
           <property name="color-style" type="int" value="0"/>
@@ -22,9 +48,11 @@
         </property>
       </property>
     </property>
+    <property name="single-workspace-mode" type="bool" value="true"/>
+    <property name="single-workspace-number" type="int" value="0"/>
   </property>
   <property name="last" type="empty">
-    <property name="window-width" type="int" value="699"/>
+    <property name="window-width" type="int" value="759"/>
     <property name="window-height" type="int" value="645"/>
   </property>
 </channel>
