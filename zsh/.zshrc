@@ -78,10 +78,19 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-# include bashrc if existant
-if [ -f '~/.bashrc' ]; then
-  source ~/.bashrc
-fi
+# alias
+alias cd..='cd ..'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../../'
+alias .....='cd ../../../../'
+alias .4='cd ../../../../'
+alias .5='cd ../../../../..'
+
+# protection
+alias rm="rm -i"
+alias cp="cp -i"
+alias mv="mv -i"
 
 # include work bashrc if existant
 if [ -d $HOME/work ] ; then
