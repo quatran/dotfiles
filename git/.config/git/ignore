@@ -1,4 +1,4 @@
-# KDE 
+# KDE
 *.directory
 
 # Swap
@@ -35,6 +35,3 @@ __pycache__/
 
 # asdf version control
 .tool-versions
-
-# gitignore
-.gitignore
