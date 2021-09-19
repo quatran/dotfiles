@@ -32,3 +32,8 @@ export PS1="# \u @ \h \w [\t]\[$(tput sgr0)\]\n$ "
 if [ -d $HOME/work ] ; then
     source $HOME/work/.bashrc
 fi
+
+# cd and ls into a folder
+cdls() {
+    cd "$@" && ls;
+}

@@ -129,3 +129,9 @@ export LC_ALL="en_US.UTF-8"
 
 # Save every command before it is executed
  setopt inc_append_history
+
+
+# cd and ls into a folder
+cdls() {
+    cd "$@" && ls;
+}
