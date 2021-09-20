@@ -1,6 +1,7 @@
 # Code Storage
-code/.config/Code/User/globalStorage
-code/.config/Code/User/workspaceStorage
+code/
+!code/.config/Code/User/keybindings.json
+!code/.config/Code/User/settings.json
 
 # xfce hardware settings
 xfce/.config/xfce4/xfconf/xfce-perchannel-xml/displays.xml
