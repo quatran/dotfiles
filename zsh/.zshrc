@@ -1,9 +1,18 @@
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/.local/bin:$HOME/bin:/usr/local/bin:$PATH
 
-
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
+
+# Ruby gems that are installed with
+# gem --user-install
+if [ -d $HOME/.gem ] ; then
+    export PATH=$HOME/.gem/ruby/2.5.0/bin:$PATH
+    export GEM_HOME=$HOME/.gem/ruby/2.5.0/
+    export GEM_PATH/.gem/ruby/2.5.0/
+fi
+
+
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
