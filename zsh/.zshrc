@@ -25,7 +25,7 @@ COMPLETION_WAITING_DOTS="true"
 plugins=(
   git
   asdf
-  zsh-autosuggestions
+  zsh-autocomplete
 )
 
 source $ZSH/oh-my-zsh.sh
