@@ -1,10 +1,7 @@
 [include]
     path =~/.config/git/config-private
 
-[includeif "gitdir:**/*suse*/**"]
-    path =~/.config/git/config-work
-
-[includeif "gitdir:**/*SUSE*/**"]
+[includeif "gitdir:**/work/**"]
     path =~/.config/git/config-work
 
 [core]
