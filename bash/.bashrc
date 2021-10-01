@@ -21,7 +21,7 @@ alias cp="cp -i"
 alias mv="mv -i"
 
 # start nvim instead of vi or vim
-if [ -f /usr/bin/bash ]; then
+if [ -f /usr/bin/nvim ]; then
     alias vi="nvim"
     alias vim="nvim"
     alias neovim="nvim"
