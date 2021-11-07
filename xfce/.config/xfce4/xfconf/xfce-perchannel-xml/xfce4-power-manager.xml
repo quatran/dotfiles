@@ -6,8 +6,8 @@
     <property name="brightness-level-on-battery" type="empty"/>
     <property name="brightness-on-ac" type="empty"/>
     <property name="brightness-on-battery" type="empty"/>
-    <property name="critical-power-action" type="uint" value="3"/>
-    <property name="critical-power-level" type="uint" value="5"/>
+    <property name="critical-power-action" type="empty"/>
+    <property name="critical-power-level" type="empty"/>
     <property name="dpms-enabled" type="empty"/>
     <property name="dpms-on-ac-off" type="empty"/>
     <property name="dpms-on-ac-sleep" type="empty"/>
@@ -15,7 +15,7 @@
     <property name="dpms-on-battery-sleep" type="empty"/>
     <property name="general-notification" type="empty"/>
     <property name="hibernate-button-action" type="empty"/>
-    <property name="inactivity-on-ac" type="uint" value="120"/>
+    <property name="inactivity-on-ac" type="empty"/>
     <property name="inactivity-on-battery" type="empty"/>
     <property name="inactivity-sleep-mode" type="empty"/>
     <property name="lid-action-on-ac" type="empty"/>
@@ -23,7 +23,7 @@
     <property name="lock-screen-suspend-hibernate" type="empty"/>
     <property name="network-manager-sleep" type="empty"/>
     <property name="power-button-action" type="empty"/>
-    <property name="show-panel-label" type="int" value="2"/>
+    <property name="show-panel-label" type="empty"/>
     <property name="sleep-button-action" type="empty"/>
     <property name="spin-down-hdd" type="empty"/>
     <property name="spin-down-on-ac-timeout" type="empty"/>
@@ -31,7 +31,5 @@
     <property name="show-tray-icon" type="bool" value="false"/>
     <property name="brightness-switch-restore-on-exit" type="int" value="1"/>
     <property name="brightness-switch" type="int" value="0"/>
-    <property name="brightness-exponential" type="bool" value="false"/>
-    <property name="presentation-mode" type="bool" value="false"/>
   </property>
 </channel>

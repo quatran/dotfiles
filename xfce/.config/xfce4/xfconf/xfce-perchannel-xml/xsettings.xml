@@ -3,7 +3,7 @@
 <channel name="xsettings" version="1.0">
   <property name="Net" type="empty">
     <property name="ThemeName" type="string" value="Plata-Lumine"/>
-    <property name="IconThemeName" type="string" value="Papirus"/>
+    <property name="IconThemeName" type="string" value="Papirus-Light"/>
     <property name="DoubleClickTime" type="empty"/>
     <property name="DoubleClickDistance" type="empty"/>
     <property name="DndDragThreshold" type="empty"/>
@@ -22,7 +22,7 @@
     <property name="Lcdfilter" type="empty"/>
   </property>
   <property name="Gtk" type="empty">
-    <property name="CanChangeAccels" type="bool" value="true"/>
+    <property name="CanChangeAccels" type="empty"/>
     <property name="ColorPalette" type="empty"/>
     <property name="FontName" type="empty"/>
     <property name="MonospaceFontName" type="empty"/>
@@ -31,10 +31,10 @@
     <property name="ToolbarStyle" type="empty"/>
     <property name="ToolbarIconSize" type="empty"/>
     <property name="MenuImages" type="empty"/>
-    <property name="ButtonImages" type="bool" value="true"/>
+    <property name="ButtonImages" type="empty"/>
     <property name="MenuBarAccel" type="empty"/>
-    <property name="CursorThemeName" type="empty"/>
-    <property name="CursorThemeSize" type="empty"/>
+    <property name="CursorThemeName" type="string" value="default"/>
+    <property name="CursorThemeSize" type="int" value="20"/>
     <property name="DecorationLayout" type="empty"/>
   </property>
   <property name="Gdk" type="empty">
