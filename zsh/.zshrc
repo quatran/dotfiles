@@ -74,6 +74,8 @@ export LC_ALL="en_US.UTF-8"
 # Save every command before it is executed
  setopt inc_append_history
 
+zstyle ':autocomplete:*' min-input 3
+
 # cd and ls into a folder
 cdls() {
     cd "$@" && ls;
