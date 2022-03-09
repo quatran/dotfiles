@@ -9,7 +9,7 @@
     <property name="show_dock_shadow" type="bool" value="false"/>
     <property name="show_frame_shadow" type="empty"/>
     <property name="show_popup_shadow" type="bool" value="false"/>
-    <property name="workspace_count" type="empty"/>
+    <property name="workspace_count" type="int" value="2"/>
     <property name="wrap_windows" type="empty"/>
     <property name="tile_on_move" type="empty"/>
     <property name="activate_action" type="string" value="bring"/>
@@ -84,6 +84,8 @@
     <property name="workspace_names" type="array">
       <value type="string" value="Workspace 1"/>
       <value type="string" value="Workspace 2"/>
+      <value type="string" value="Workspace 3"/>
+      <value type="string" value="Workspace 4"/>
     </property>
   </property>
 </channel>
