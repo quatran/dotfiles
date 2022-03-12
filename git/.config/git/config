@@ -5,7 +5,7 @@
     path =~/.config/git/config-work
 
 [core]
-    editor = nvim
+    editor = vim
     excludesfile = ~/.config/git/ignore
 
 [commit]
