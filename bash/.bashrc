@@ -46,3 +46,8 @@ fi
 cdls() {
     cd "$@" && ls;
 }
+
+# open folder with current instance of code
+cr() {
+    code "$@" --reuse-window;
+}
