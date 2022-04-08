@@ -69,5 +69,5 @@
 	"workbench.enableExperiments": false,
 	"workbench.iconTheme": "vscode-icons",
 	"workbench.settings.useSplitJSON": true,
-	"workbench.sideBar.location": "left"
+	"editor.copyWithSyntaxHighlighting": false
 }
