@@ -32,7 +32,6 @@
 	"files.autoGuessEncoding": true,
 	"files.insertFinalNewline": true,
 	"files.trimFinalNewlines": true,
-	"files.trimTrailingWhitespace": true,
 	"git.confirmSync": false,
 	"git.enableSmartCommit": true,
 	"git.untrackedChanges": "separate",
@@ -61,7 +60,6 @@
 	"terminal.integrated.rightClickCopyPaste": true,
 	"update.mode": "manual",
 	"window.zoomLevel": 1,
-	"workbench.activityBar.visible": true,
 	"workbench.editorAssociations": {
 		"*.md, *.markdown": "vscode.markdown.preview.editor",
 		"*.ipynb": "jupyter-notebook"
