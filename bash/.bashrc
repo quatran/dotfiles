@@ -1,3 +1,10 @@
+# asdf
+# https://asdf-vm.com/guide/getting-started.html#_3-install-asdf
+if [ -d $HOME/.asdf ] ; then
+. $HOME/.asdf/asdf.sh
+. $HOME/.asdf/completions/asdf.bash
+fi
+
 # Ruby gems that are installed with
 # gem --user-install
 if [ -d $HOME/.gem ] ; then
