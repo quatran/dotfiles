@@ -25,7 +25,7 @@ COMPLETION_WAITING_DOTS="true"
 plugins=(
   git
   asdf
-  flatpak-zsh-completion
+  flatpak
   zsh-autocomplete
 )
 
