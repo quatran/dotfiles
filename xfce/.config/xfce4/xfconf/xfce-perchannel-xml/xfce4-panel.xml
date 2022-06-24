@@ -32,7 +32,7 @@
     </property>
     <property name="dark-mode" type="bool" value="false"/>
     <property name="panel-2" type="empty">
-      <property name="position" type="string" value="p=8;x=960;y=1044"/>
+      <property name="position" type="string" value="p=8;x=960;y=1053"/>
       <property name="size" type="uint" value="25"/>
       <property name="length" type="uint" value="100"/>
       <property name="plugin-ids" type="array">
@@ -90,7 +90,7 @@
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
       <property name="show-notifications" type="bool" value="true"/>
       <property name="size-max" type="uint" value="16"/>
-      <property name="mpris-players" type="string" value="chromium.instance14142;firefox.instance10846;firefox.instance2817;firefox.instance3318;firefox.instance4581;firefox.instance8381;vlc"/>
+      <property name="mpris-players" type="string" value="chromium.instance14142;firefox.instance10846;firefox.instance15553;firefox.instance22139;firefox.instance2774;firefox.instance2802;firefox.instance2817;firefox.instance3023;firefox.instance3069;firefox.instance3256;firefox.instance3318;firefox.instance3404;firefox.instance4581;firefox.instance8381;vlc"/>
     </property>
     <property name="plugin-15" type="string" value="whiskermenu">
       <property name="menu-is-primary" type="empty"/>
@@ -134,7 +134,7 @@
       <property name="mode" type="uint" value="2"/>
     </property>
     <property name="plugin-16" type="string" value="pager">
-      <property name="rows" type="uint" value="2"/>
+      <property name="rows" type="uint" value="1"/>
       <property name="miniature-view" type="bool" value="true"/>
       <property name="numbering" type="bool" value="false"/>
       <property name="workspace-scrolling" type="bool" value="false"/>
@@ -142,7 +142,7 @@
     <property name="plugin-18" type="string" value="clock"/>
     <property name="plugin-17" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="chromium.instance14142;firefox.instance10846;firefox.instance2817;firefox.instance3318;firefox.instance4581;firefox.instance8381;vlc"/>
+      <property name="mpris-players" type="string" value="chromium.instance14142;firefox.instance10846;firefox.instance15553;firefox.instance22139;firefox.instance2774;firefox.instance2802;firefox.instance2817;firefox.instance3023;firefox.instance3069;firefox.instance3256;firefox.instance3318;firefox.instance3404;firefox.instance4581;firefox.instance8381;vlc"/>
     </property>
     <property name="plugin-19" type="string" value="notification-plugin"/>
   </property>

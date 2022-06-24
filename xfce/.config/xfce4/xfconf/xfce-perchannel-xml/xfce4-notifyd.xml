@@ -15,6 +15,7 @@
       <value type="string" value="notify-send"/>
       <value type="string" value="org.gnome.Software"/>
       <value type="string" value="org.guido-berhoerster.code.package-update-indicator"/>
+      <value type="string" value="signal"/>
       <value type="string" value="Slack"/>
       <value type="string" value="Syncthing GTK"/>
       <value type="string" value="teams"/>
