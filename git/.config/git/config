@@ -30,3 +30,5 @@
     p = push
     st = status
     s = status -s
+[init]
+	defaultBranch = main
