@@ -5,13 +5,6 @@ if [ -d $HOME/.asdf ] ; then
 . $HOME/.asdf/completions/asdf.bash
 fi
 
-# Ruby gems that are installed with
-# gem --user-install
-if [ -d $HOME/.gem ] ; then
-    export PATH=$HOME/.gem/ruby/2.5.0/bin:$PATH
-    export GEM_HOME=$HOME/.gem/ruby/2.5.0/
-    export GEM_PATH=$HOME/.gem/ruby/2.5.0/
-fi
 
 # alias
 alias cd..='cd ..'

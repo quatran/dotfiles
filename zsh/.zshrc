@@ -4,14 +4,6 @@ export PATH=$HOME/.local/bin:$HOME/bin:/usr/local/bin:$PATH
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
-# Ruby gems that are installed with
-# gem --user-install
-if [ -d $HOME/.gem ] ; then
-    export PATH=$HOME/.gem/ruby/2.5.0/bin:$PATH
-    export GEM_HOME=$HOME/.gem/ruby/2.5.0/
-    export GEM_PATH=$HOME/.gem/ruby/2.5.0/
-fi
-
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="ys"
 
@@ -24,8 +16,8 @@ COMPLETION_WAITING_DOTS="true"
 # zsh plugins
 plugins=(
   git
-  asdf
-  flatpak
+  # asdf
+  # flatpak
   zsh-autocomplete
 )
 
