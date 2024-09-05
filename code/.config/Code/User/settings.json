@@ -18,7 +18,6 @@
 	"editor.suggest.showStatusBar": true,
 	"editor.tabCompletion": "on",
 	"editor.tabSize": 2,
-	"editor.wordBasedSuggestionsMode": "allDocuments",
 	"editor.wordWrap": "on",
 	"explorer.confirmDelete": false,
 	"explorer.confirmDragAndDrop": false,
@@ -35,28 +34,20 @@
 	"git.confirmSync": false,
 	"git.enableSmartCommit": true,
 	"git.untrackedChanges": "separate",
-	"gitlens.advanced.messages": {
-		"suppressFileNotUnderSourceControlWarning": true,
-		"suppressLineUncommittedWarning": true
-	},
+
 	"launch": {
 		"configurations": [],
 		"compounds": []
 	},
-	"markdown.extension.toc.omittedFromToc": {},
 	"notebook.cellToolbarLocation": {
 		"default": "right",
 		"jupyter-notebook": "left"
 	},
 	"npm.fetchOnlinePackageInfo": false,
-	"python.defaultInterpreterPath": "/usr/bin/python3",
-	"ruby.format": "rubocop",
-	"ruby.interpreter.commandPath": "/usr/bin/ruby",
 	"telemetry.telemetryLevel":"off",
 	"terminal.integrated.defaultProfile.linux": "zsh",
 	"terminal.integrated.fontFamily": "monospace",
 	"terminal.integrated.rightClickBehavior": "selectWord",
-	"terminal.integrated.rightClickCopyPaste": true,
 	"update.mode": "manual",
 	"window.zoomLevel": 1,
 	"workbench.editorAssociations": {
