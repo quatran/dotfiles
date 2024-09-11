@@ -29,6 +29,6 @@
     cob = checkout -b
     p = push
     st = status
-	s = status -s
+    s = status -s
 [init]
-	defaultBranch = main
+    defaultBranch = main
